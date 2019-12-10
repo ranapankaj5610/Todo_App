@@ -10,7 +10,7 @@ const Todos=({todos,deleteTodo})=>{
             )
         })
     ) :(
-        <p className="center">you have no todo left</p>
+        <h5 style={{color:"white"}}className="center">You Have no Todos left</h5>
     )
     return(
         <div className="todos collection">

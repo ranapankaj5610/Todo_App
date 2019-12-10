@@ -5,12 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  height: 100%;
+  background-color: blue; /* For browsers that do not support gradients */
+  background-image: linear-gradient(45deg, blue, violet); /* Standard syntax (must be last) */
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.todos-collection{
-  background-color: yellow;
+.todos collection{
+  background-color: red;
 }
